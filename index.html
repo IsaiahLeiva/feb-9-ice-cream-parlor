@@ -43,6 +43,7 @@
                 <h1 class="text-center"><b>Flavors!</b></h1>
             </div>
             <div class="row">
+                <!-- //ANCHOR - start of the function for drawFlavors -->
 
                 <div id="icFlavors" class="menu-item col-md-6 bg-light p-0 selectable"
                     onclick="buyiceCream('icFlavors')">
@@ -52,6 +53,18 @@
                     <div class="d-flex justify-content-between p-2">
                         <h2><b>Cookie Dough</b></h2>
                         <h3>$3.99 per Scoop</h3>
+                    </div>
+
+                    <div class="row bg-warning text-dark">
+                        <div class="col-12">
+                            <div>
+                                <h2>
+                                    <b>Total: $<span id="total">0.00</span></b>
+                                </h2>
+                                <button id="checkout" class="btn btn-outline-dark"
+                                    onclick="checkout()">Checkout!</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- //ANCHOR - Was trying to do way too much with adding the different flavors and such -->
@@ -84,16 +97,6 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div>
-                        <h2>
-                            <b>Total: $<span id="total">0.00</span></b>
-                        </h2>
-                        <button id="checkout" class="btn btn-outline-dark" onclick="checkout()">Checkout!</button>
-                    </div>
-                </div>
             </div>
         </div>
     </main>
