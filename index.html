@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="">
+<body class="debug">
     <header class="container-fluid">
         <div class="row bg-dark text-light justify-content-center p-3">
             <div class="col-12 col-md-6">
@@ -39,65 +39,66 @@
     </header>
     <main class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <h1 class="text-center"><b>Flavors!</b></h1>
-                    </div>
-                    <div class="row">
-                        <div id="icFlavors" class="menu-item col-md-6 bg-light p-0 selectable"
-                            onclick="buyiceCream('icFlavors')">
-                            <img class="img-fluid"
-                                src="https://images.unsplash.com/photo-1572829214292-1f9b1aa3b1ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hvY29sYXRlJTIwaWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                                alt="Cookie-dough">
-                            <div class="d-flex justify-content-between p-2">
-                                <h2><b>Cookie Dough</b></h2>
-                                <h3>$3.99 per Scoop</h3>
-                            </div>
-                        </div>
-                        <div id="icFlavors" class="menu-item col-md-6 bg-light p-0 selectable">
-                            <img class="img-fluid"
-                                src="https://images.unsplash.com/photo-1633933358116-a27b902fad35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80"
-                                alt="strawberry">
-                            <div class="justify-content-between p-2">
-                                <h2><b>Strawberry</b></h2>
-                                <h3>$4.99 per Scoop</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ANCHOR adding flavors-->
-                    <div id="icFlavors" class="row">
-                        <div id="flavors" class="menu-item col-md-6 bg-light p-0 selectable">
-                            <img class="img-fluid"
-                                src="https://images.unsplash.com/photo-1477505982272-ead89926a577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-                                alt="Honey-w/cinnamon">
-                            <div class="justify-content-between p-2">
-                                <h2><b>Vanilla</b></h2>
-                                <h3>$4.99 per Scoop</h3>
-                            </div>
-                        </div>
-                        <div id="icFlavors" class="menu-item col-md-6 bg-light p-0 selectable">
-                            <img class="img-fluid"
-                                src="https://images.unsplash.com/photo-1529688499411-262f191fe29e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
-                                alt="Lime">
-                            <div class="justify-content-between p-2">
-                                <h2><b>Lime</b></h2>
-                                <h3>$3.99 per Scoop</h3>
-                            </div>
-                        </div>
+            <div class="col-12">
+                <h1 class="text-center"><b>Flavors!</b></h1>
+            </div>
+            <div class="row">
+
+                <div id="icFlavors" class="menu-item col-md-6 bg-light p-0 selectable"
+                    onclick="buyiceCream('icFlavors')">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1572829214292-1f9b1aa3b1ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hvY29sYXRlJTIwaWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                        alt="Cookie-dough">
+                    <div class="d-flex justify-content-between p-2">
+                        <h2><b>Cookie Dough</b></h2>
+                        <h3>$3.99 per Scoop</h3>
                     </div>
                 </div>
+                <!-- //ANCHOR - Was trying to do way too much with adding the different flavors and such -->
+                <!-- <div id="icFlavors" class="menu-item col-md-6 bg-light p-0 selectable">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1633933358116-a27b902fad35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80"
+                        alt="strawberry">
+                    <div class="justify-content-between p-2">
+                        <h2><b>Strawberry</b></h2>
+                        <h3>$4.99 per Scoop</h3>
+                    </div>
+                </div>
+                <div id="icFlavors" class="row">
+                    <div id="flavors" class="menu-item col-md-6 bg-light p-0 selectable">
+                        <img class="img-fluid"
+                            src="https://images.unsplash.com/photo-1477505982272-ead89926a577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                            alt="Honey-w/cinnamon">
+                        <div class="justify-content-between p-2">
+                            <h2><b>Vanilla</b></h2>
+                            <h3>$4.99 per Scoop</h3>
+                        </div>
+                    </div>
+                    <div id="icFlavors" class="menu-item col-md-6 bg-light p-0 selectable">
+                        <img class="img-fluid"
+                            src="https://images.unsplash.com/photo-1529688499411-262f191fe29e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                            alt="Lime">
+                        <div class="justify-content-between p-2">
+                            <h2><b>Lime</b></h2>
+                            <h3>$3.99 per Scoop</h3>
+                        </div>
+                    </div>
+                </div> -->
             </div>
-            <div class="col-12 col-md-6"></div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
-
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <h2>
+                            <b>Total: $<span id="total">0.00</span></b>
+                        </h2>
+                        <button id="checkout" class="btn btn-outline-dark" onclick="checkout()">Checkout!</button>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     <footer class="container-fluid">
-
+        <div class="row bg-dark"></div>
     </footer>
     <script src="app.js"></script>
 
