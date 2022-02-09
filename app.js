@@ -29,7 +29,7 @@ function drawFlavors() {
 }
 
 function buyiceCream(icFlavors) {
-    let itemToAdd = icFlavors.find(ff => ff.id == icFlavors)
+    let itemToAdd = icFlavors.find(fi => fi.id == icFlavors)
     console.log('adding', itemToAdd)
     cart.push(itemToAdd)
     total += itemToAdd.price
