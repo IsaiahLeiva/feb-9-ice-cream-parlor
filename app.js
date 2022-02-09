@@ -12,7 +12,17 @@ let cart = []
 
 function drawFlavors() {
     for (let i = 0; i < iceCream.length; i++) {
-        const element = iceCream[i];
+        const item = iceCream[i];
+        template += `
+        <div id="flavors" class="menu-item col-md-6" onclick="buyiceCream($(flavor.id))">
+            <img class="img-fluid"
+            src="https://images.unsplash.com/photo-1572829214292-1f9b1aa3b1ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hvY29sYXRlJTIwaWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+            alt="Cookie-dough">
+            <div class="d-flex justify-content-between p-2">
+            <h2><b>Cookie Dough</b></h2>
+            </div>
+        </div>
+        `
 
     }
 }
