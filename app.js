@@ -8,3 +8,11 @@ const toppings = [{ name: 'Sprinkles', image: 'https://upload.wikimedia.org/wiki
 
 //ANCHOR: Every time you add something to your cart the total should be updated, you can render this to the screen similar to what a receipt would look like.
 
+let cart = []
+
+function drawFlavors() {
+    for (let i = 0; i < iceCream.length; i++) {
+        const element = iceCream[i];
+
+    }
+}
