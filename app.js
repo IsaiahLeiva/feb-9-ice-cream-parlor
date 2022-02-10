@@ -29,10 +29,19 @@ function drawFlavors() {
     document.getElementById('iceCream').innerHTML = template
 }
 
-function buyiceCream(icFlavors) {
-    let itemToAdd = iceCream.find(fi => fi.id == icFlavors)
-    console.log('adding', itemToAdd)
+function buyiceCream() {
+    let itemToAdd = iceCream.find(ici => ici.id == flavors)
+    console.log('adding', itemToAdd);
     cart.push(itemToAdd)
     total += itemToAdd.price
     drawCart()
 }
+
+// function checkout(){
+//     if (cart.length) {
+//         if (condition) {
+            
+//         }
+//     }
+// }
+
