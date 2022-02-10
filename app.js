@@ -11,6 +11,7 @@ const toppings = [{ name: 'Sprinkles', image: 'https://upload.wikimedia.org/wiki
 let cart = []
 
 function drawFlavors() {
+    let template = '';
     for (let i = 0; i < iceCream.length; i++) {
         const item = iceCream[i];
         item += ` 
